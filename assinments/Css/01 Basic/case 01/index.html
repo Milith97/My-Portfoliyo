@@ -62,7 +62,60 @@
             margin: auto;
             border-radius: 100%;
         }
+        main > div:nth-child(6),div:nth-child(7),div:nth-child(8),div:nth-child(9){
+            width: 155px;
+            height: 155px;
+            background-color: white;
+            border: 2px solid white;
+            position: absolute;
+        }
+        main>div:nth-child(6){
+            border-bottom-right-radius: 100%;
+
+        }
+        main>div:nth-child(7){
+            right: 0;
+            top: 0;
+            border-bottom-left-radius: 100%;
+
+        }
+        main>div:nth-child(8){
+            left: 0;
+            bottom: 0;
+            border-top-right-radius:100%;
+        }
+        main>div:nth-child(9){
+            right: 0;
+            bottom: 0;
+            border-top-left-radius:100%;
+        }
+        main>div:nth-child(10),main>div:nth-child(11){
+            width: 175px;
+            height: 90px;
+            background-color: white;
+            border: 2px solid white;
+            position: absolute;
+        }
+        main>div:nth-child(10){
+            right: 0;
+            left: 0;
+            margin: auto;
+            top: 0;
+            border-bottom-right-radius: 290px;
+            border-bottom-left-radius: 290px;
+        }
+        main>div:nth-child(11) {
+            right: 0;
+            left: 0;
+            margin: auto;
+            bottom: 0;
+            border-top-right-radius: 290px;
+            border-top-left-radius: 290px;
+        }
+
     </style>
+
+
 </head>
 <body>
 <main>
@@ -78,6 +131,15 @@
 
         </div>
     </div>
+        <!----Half circle for edge---->
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <!----half circle for middle ---->
+    <div></div>
+    <div></div>
+
 </main>
 </body>
 </html>
