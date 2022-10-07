@@ -6,9 +6,12 @@
     <link rel="stylesheet" href="assets/css/normalize.css">
 
     <style>
+        ::-webkit-scrollbar {
+            display: none;
+        }
         body {
             margin: 0;
-            color: white;
+            color: #ffffff;
         }
         body > section:first-of-type {
             position: fixed;
@@ -27,14 +30,14 @@
             margin: auto;
             border-radius: 200px;
             background-color: transparent;
-            border: 15px solid brown;
+            border: 15px solid #c61616;
         }
         body > section:nth-child(1) > div:first-of-type > div {
             width: 332px;
             height: 330px;
             position: fixed;
             display: flex;
-            border: 10px solid red;
+            border: 10px solid #d7652c;
             border-radius: 174px;
             top: 0;
             bottom: 0;
@@ -53,7 +56,7 @@
             position: absolute;
             height: 337px;
             width: 336px;
-            background-color: #9c27b0;
+            background-color: #720787;
             display: inline-block;
             border-radius: 244px;
             top: 0;
@@ -63,6 +66,50 @@
             margin: auto;
             z-index: -1;
         }
+        body > section:nth-child(3) {
+            position: relative;
+            width: 100vw;
+            height: 100vh;
+            top: 767px;
+        }
+
+        body > section:nth-child(3) > div {
+            position: absolute;
+            height: 337px;
+            width: 336px;
+            background-color: #f6eb22;
+            display: inline-block;
+            border-radius: 244px;
+            top: 60px;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+            z-index: -1;
+        }
+
+        body > section:nth-child(4) {
+            position: relative;
+            width: 100vw;
+            height: 100vh;
+            top: 767px;
+        }
+
+        body > section:nth-child(4) > div {
+            position: absolute;
+            height: 337px;
+            width: 336px;
+            background-color: #421507;
+            display: inline-block;
+            border-radius: 244px;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+            z-index: -1;
+        }
+
 
     </style>
 </head>
