@@ -6,29 +6,111 @@
     <link rel="stylesheet" href="assets/css/normalize.css">
 
     <style>
+        ::-webkit-scrollbar {
+            display: none;
+        }
+
+        body{
+            margin: 0;
+        }
+
+        body > section:nth-child(1) {
+            position: relative;
+            background-color: orange;
+            width: 100vw;
+            height: 100vh;
+        }
+
+        body > section:nth-child(1) > header {
+            background-color: #de0865;
+            top: 0;
+            position: sticky;
+            height: 50px;
+            width: 100vw;
+        }
+
+        body > section:nth-child(1) > header > h4 {
+            display: inline-block;
+            color: #ffffff;
+            padding-left: 10px;
+            padding-top: 10px;
+            font-size: 20px;
+            margin: 0;
+        }
+
+        body > section:nth-child(1) > h1 {
+            display: inline-block;
+            position: absolute;
+            left: calc(90vw/2);
+            top: calc(90vh/2);
+            font-size: 100px;
+            margin: 0;
+        }
+
+        body > section:nth-child(2) {
+            position: relative;
+            background-color: #436f95;
+            width: 100vw;
+            height: 100vh;
+        }
+
+        body > section:nth-child(2) > header {
+            background-color: darkblue;
+            top: 0;
+            position: sticky;
+            height: 50px;
+            width: 100vw;
+        }
+
+        body > section:nth-child(2) > header > h4 {
+            display: inline-block;
+            color: #ffffff;
+            padding-left: 10px;
+            padding-top: 10px;
+            font-size: 20px;
+            margin: 0;
+        }
+
+        body > section:nth-child(2) > h1 {
+            display: inline-block;
+            position: absolute;
+            left: calc(90vw/2);
+            top: calc(90vh/2);
+            font-size: 100px;
+            margin: 0;
+        }
+
 
     </style>
 
 </head>
 <body>
     <section>
-        <header></header>
-        <section></section>
+        <header>
+            <h4>card 1</h4>
+        </header>
+            <h1>Hello</h1>
     </section>
 
     <section>
-        <header></header>
-        <section></section>
+        <header>
+            <h4>card 2</h4>
+        </header>
+            <h1>How</h1>
     </section>
 
     <section>
-        <header></header>
-        <section></section>
+        <header>
+            <h4>card 3</h4>
+        </header>
+            <h1>Are</h1>
     </section>
 
     <section>
-        <header></header>
-        <section></section>
+        <header>
+            <h4>card 4</h4>
+        </header>
+             <h1>You</h1>
     </section>
 
 </body>
