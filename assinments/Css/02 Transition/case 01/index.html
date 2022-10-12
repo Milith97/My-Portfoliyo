@@ -5,6 +5,7 @@
     <title>Transition Case 1 | IJSE</title>
     <meta content="width=device-width initial-scale=1" name="viewport">
     <link href="../../../../assets/css/normalize.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <style>
 
@@ -26,11 +27,12 @@
             height: 50px;
             width: 100%;
             background-color: #8715b4;
-            color: #ffffff;
+            color: #1d1818;
             box-shadow: 3px 2px 5px 1px #2b1d9e9e;
             cursor: pointer;
             transition-property: all;
             transition-duration: 1s;
+            border-radius: 10px;
         }
 
         section > div > h3 {
@@ -51,7 +53,12 @@
             margin: auto;
             font-size: 25px;
         }
-
+        section>div:hover{
+            /*background-color: #722df0;*/
+            left: 165px;
+            transition-property: all;
+            transition-duration: 1s;
+        }
 
     </style>
 </head>
@@ -60,10 +67,12 @@
 <section>
     <div>
         <h3>Menu One</h3>
+        <i class="fa-solid fa-address-book"></i>
     </div>
 
     <div>
         <h3>Menu Two</h3>
+        <i class="fa-solid fa-truck-medical"></i>
     </div>
 
     <div>
