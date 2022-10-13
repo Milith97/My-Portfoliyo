@@ -71,6 +71,7 @@ body > header > nav > article > a, u {
     font-size: 115px;
     color: #ffffff;
     position: relative; left: 220px; bottom: 118px;
+    font-family: 'Arima', cursive;
 }
 .hireme {
     background: #103e66;
@@ -86,11 +87,17 @@ body > header > nav > article > a, u {
     cursor: pointer;
     position: absolute;
     left: -50px;
-    right: 900px;
+    right: 800px;
     top: 552px;
     bottom: 0;
     margin: auto;
     border: none;
-    font-family: 'Concert One', cursive;
-
+}
+/*add div for gif*/
+body > main > section:nth-child(1) > div:nth-child(2) {
+    width: 600px;
+    height: 600px;
+    position: absolute;
+    right: 50px;
+    top: 120px;
 }
