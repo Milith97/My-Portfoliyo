@@ -67,3 +67,8 @@ body > header > nav > article > a, u {
     position: relative; left: 225px; top: 50px;
     top: 270px;
 }
+.intro3 {
+    font-size: 115px;
+    color: #ffffff;
+    position: relative; left: 220px; bottom: 118px;
+}
