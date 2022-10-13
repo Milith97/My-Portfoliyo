@@ -72,3 +72,25 @@ body > header > nav > article > a, u {
     color: #ffffff;
     position: relative; left: 220px; bottom: 118px;
 }
+.hireme {
+    background: #103e66;
+    width: 191px;
+    height: 53px;
+    border-radius: 54px;
+    font-weight: 700;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+    font-size: 24px;
+    color: #ffffff;
+    cursor: pointer;
+    position: absolute;
+    left: -50px;
+    right: 900px;
+    top: 552px;
+    bottom: 0;
+    margin: auto;
+    border: none;
+    font-family: 'Concert One', cursive;
+
+}
