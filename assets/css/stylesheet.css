@@ -28,8 +28,8 @@ header > div:nth-child(1) > img {
     position: absolute;
     top: 0;
     bottom: 0;
-    right: 0;
-    left: 0;
+    right: 80;
+    left:0;
     margin: auto;
     width: 80px;
     height: 80px;
@@ -45,4 +45,11 @@ header > nav > article {
     font-size: 24px;
     font-family: Tahoma, sans-serif;
 }
+/*Add padding And Remove header underlines*/
+body > header > nav > article > a, u {
+    text-decoration: none;
+    color: #ffffff;
+    padding-right: 10px;
+}
+
 
