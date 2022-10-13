@@ -54,3 +54,10 @@ body > header > nav > article > a, u {
     color: #ffffff;
     padding-right: 10px;
 }
+/*-----------------------------Page One Styles----------------------------------*/
+.intro1{
+    font-size: 45px;
+    color: white;
+    position: relative; left: 221px; top: 50px;
+    top: 294px;
+}
