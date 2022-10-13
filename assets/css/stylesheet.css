@@ -5,7 +5,10 @@
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: #0022ff;
+    background-color: #ffffff;
+}
+head{
+    background-color: black;
 }
 
 body {
@@ -26,10 +29,10 @@ header {
 /*Add header image*/
 header > div:nth-child(1) > img {
     position: absolute;
-    top: 0;
+    top: 15px;
     bottom: 0;
-    right: 80;
-    left:0;
+    right: 558px;
+    left:-795px;
     margin: auto;
     width: 80px;
     height: 80px;
@@ -51,5 +54,3 @@ body > header > nav > article > a, u {
     color: #ffffff;
     padding-right: 10px;
 }
-
-
