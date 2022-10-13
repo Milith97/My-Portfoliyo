@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed7bf27e-9612-4051-b8fa-7970c69c41e9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../assets/css/normalize.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/case 01/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/case 01/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case 03/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/case 03/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,21 +35,8 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/case 03" />
     <property name="nodejs_package_manager_path" value="npm" />
-  </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -59,7 +49,13 @@
       <workItem from="1663736393352" duration="5471000" />
       <workItem from="1663984766645" duration="1961000" />
       <workItem from="1664072165196" duration="3790000" />
-      <workItem from="1664244435147" duration="15712000" />
+      <workItem from="1664244435147" duration="17858000" />
+      <workItem from="1664350215314" duration="602000" />
+      <workItem from="1664958261910" duration="23000" />
+      <workItem from="1664988828668" duration="22000" />
+      <workItem from="1665117479277" duration="34000" />
+      <workItem from="1665117529498" duration="15000" />
+      <workItem from="1665119367288" duration="11000" />
     </task>
     <servers />
   </component>
