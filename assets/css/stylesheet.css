@@ -139,3 +139,23 @@ intro3{
     top: 40px;
 
 }
+
+.intro5{
+    font-family: 'Arima', cursive;
+    font-size: 35px;
+    color: white;
+    left: 721px;
+    position: relative;
+    top: -146px;
+}
+.intro6{
+    color: white;
+    font-size: 30px;
+    right: 10px;
+    left: 700px;
+    position: relative;
+    bottom: 230px;
+    font-family: 'Arima', cursive;
+    opacity: 0.5;
+
+}
