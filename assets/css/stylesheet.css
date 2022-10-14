@@ -139,7 +139,15 @@ intro3{
     top: 40px;
 
 }
+.about{
+    font-family: 'Arima', cursive;
+    font-size: 120px;
+    color: #533D3D;
+    position: relative;
+    left: 700px;
+    top: -68px;
 
+}
 .intro5{
     font-family: 'Arima', cursive;
     font-size: 35px;
@@ -159,3 +167,4 @@ intro3{
     opacity: 0.5;
 
 }
+
