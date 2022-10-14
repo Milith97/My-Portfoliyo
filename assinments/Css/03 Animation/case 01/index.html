@@ -7,17 +7,42 @@
     <meta content="width=device-width initial-scale=1" name="viewport">
 
   <style>
-    div{
-      height: 60px;
-      width: 120px;
-      background-color: #ff0000;
-      border: 2px solid black;
-      border-radius: 15px;
-      animation-name: my-animation;
+      body{
+          margin: 0;
+      }
+      ::-webkit-scrollbar{
+          width: 0;
+      }
+
+      div{
+      background-color: red;
+      width: 250px;
+      height: 80px;
+      position: relative;
+      top: 10px;
+      left: 10px;
+      border-radius: 20px;
+      animation-name:my-animation;
+      animation-duration: 5s;
       animation-direction: alternate;
       animation-iteration-count: infinite;
-      animation-duration: 10s;
-    }
+      }
+
+    /* top, right, bottom, left*/
+    @keyframes my-animation {
+        0%{
+            /*transform: rotate(0deg);*/
+            top: 10px;
+            left: 10px;
+            background-color: red;
+        }
+        25%{
+            transform: rotate(-180deg);
+            top: 90vh;
+            left: 10px;
+            background-color: #6F1919;
+        }
+
   </style>
 
 </head>
