@@ -59,13 +59,13 @@ body > header > nav > article > a, u {
     font-size: 45px;
     color: white;
     position: relative; left: 221px; top: 50px;
-    top: 294px;
+    top: 300px;
 }
 .intro2 {
     font-size: 25px;
     color: white;
     position: relative; left: 225px; top: 50px;
-    top: 270px;
+    top: 279px;
 }
 .intro3 {
     font-size: 115px;
@@ -85,19 +85,21 @@ body > header > nav > article > a, u {
     font-size: 24px;
     color: #ffffff;
     cursor: pointer;
-    position: absolute;
-    left: -50px;
+    position: relative;
+    left: 240px;
     right: 800px;
-    top: 552px;
+    top: -85px;
     bottom: 0;
     margin: auto;
     border: none;
 }
-/*add div for gif*/
 body > main > section:nth-child(1) > div:nth-child(2) {
     width: 600px;
     height: 600px;
     position: absolute;
     right: 50px;
     top: 120px;
+}
+body > main > section:nth-child(1) > nav:nth-child(3) > div {
+
 }
