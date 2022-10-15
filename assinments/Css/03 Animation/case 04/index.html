@@ -64,6 +64,28 @@
             animation: rotate 10s infinite;
         }
 
+        @keyframes rotate {
+            0% {
+                transform: rotate(0deg);
+            }
+            50% {
+                transform: rotate(720deg);
+            }
+            100% {
+                transform: rotate(540deg);
+            }
+        }
+        @keyframes move {
+            0% {
+                transform: translateX(0px);
+            }
+            100% {
+                transform: translateX(-1400px);
+            }
+        }
+
+
+
     </style>
 </head>
 <body>
