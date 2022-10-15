@@ -1,10 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>Animation case two</title>
+    <link rel="stylesheet" href="../../../../assets/css/normalize.css">
+    <meta content="width=device-width initial-scale=1" name="viewport">
+
+<style>
+    div {
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+
+        width: 10px;
+        height: 10px;
+        border: 3px solid darkred;
+        position: absolute;
+        margin: auto;
+        border-radius: 100%;
+
+        animation-name: my-animation;
+        animation-duration: .9s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+    }
+    @keyframes my-animation {
+        0% {
+            width: 15px;
+            height: 15px;
+        }
+        100% {
+            width: 250px;
+            height: 250px;
+            opacity: 0;
+            border: 10px solid rgb(78, 93, 186);
+        }
+</style>
 </head>
+
 <body>
-$END$
+    <div></div>
 </body>
 </html>
